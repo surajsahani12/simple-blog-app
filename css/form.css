@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.container form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 60vh;
+    /* margin-top: -250px; half of you height */
+    width: 60vh;
+    /* margin-left: -200px; half of you width */
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
